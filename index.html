@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo"><a href="/">Logo</a></div>
+          <div class="navLinks">
+            <a href="./login.html">Login</a>
+            <div class="navLink">
+              <a href="./singup.html">Cadastre-se</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="user">
+          <div class="userImage">
+            <form id="formImage">
+              <input
+                type="text"
+                name="avatar"
+                id="avatar"
+                placeholder="Cole aqui link da sua foto"
+                required
+              />
+              <div class="btns">
+                <button class="btnSetImage" type="submit">SALVAR</button>
+                <span class="btnCancelImage">CANCELAR</span>
+              </div>
+            </form>
+          </div>
+          <div class="userName">
+            <form id="formName">
+              <button type="submit">SALVAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer><p>@Todos os direitos reservados</p></footer>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
