@@ -97,3 +97,9 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (max-width: 600px) {
+  #formName input {
+    font-size: 2.5rem;
+  }
+}
